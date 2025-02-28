@@ -1,0 +1,77 @@
+.login-main-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding-right: 10vw;
+}
+
+/* Glass Container */
+.glass-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+    width: 40vw;
+    /* max-width: 500px; */
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    text-align: center;
+}
+
+/* Button Container */
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px; /* Spacing between buttons */
+}
+
+/* Primary Button */
+.primary-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+    background-color: #0056b3;
+}
+
+/* Secondary Button */
+.secondary-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF5722;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.secondary-button:hover {
+    background-color: #d84315;
+}
+
+
+.login-quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

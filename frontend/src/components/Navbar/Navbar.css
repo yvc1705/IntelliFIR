@@ -1,0 +1,9 @@
+.MuiButton-root.nav-button{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.MuiButton-root.nav-icons{
+    padding: 2rem;
+}

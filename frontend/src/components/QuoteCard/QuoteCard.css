@@ -1,0 +1,35 @@
+.glass-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent white */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    text-align: center;
+}
+
+.quote {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white; /* Text color */
+    text-align: center;
+    line-height: 1.8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.author {
+    padding-left: 15vw;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8); /* Lighter text for attribution */
+    text-align: center;
+    font-style: italic;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Glassmorphism Effect */
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .form-tag{
+    height: 50vh;
+} */
+
+.glass-container {
+    width: 35vw;
+    margin-top: 4vh;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    backdrop-filter: blur(0px); /* Blur effect */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.register-title{
+    font-family: "Host Grotesk", sans-serif;
+    color: #BFD7FF;
+}
+/* Color Scheme */
+.primary-color {
+    background-color: #5465FF;
+    color: white;
+}
+
+.secondary-color {
+    background-color: #788BFF;
+    color: white;
+}
+
+.light-color {
+    background-color: #BFD7FF;
+    color: black;
+}
+
+/* Form Field Styles */
+.form-field {
+    margin-bottom: 15px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border: 2px solid #788BFF;
+}
+
+/* Button Style */
+.nav-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-button:hover {
+    background-color: #5465FF;
+    color: white;
+}
+
+.record-button {
+    margin-top: 10px;
+    background-color: #788BFF;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.record-button:hover {
+    background-color: #5465FF;
+}
+
+button[type="submit"] {
+    background-color: #5465FF;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #788BFF;
+}
+
+
+.give-padding{
+    padding-right: 0.5vw;
+}

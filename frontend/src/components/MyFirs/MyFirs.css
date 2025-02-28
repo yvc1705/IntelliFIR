@@ -1,0 +1,21 @@
+.myfir-block{
+    margin-top: 2rem;
+}
+
+.myfir-block {
+    background: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border-radius: 15px; /* Rounded corners for the glass effect */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    /* max-width: 1200px; */
+    margin: 20px auto;
+}
+
+.table-container {
+    background: rgba(255, 255, 255, 0.2); /* Slight transparency */
+    backdrop-filter: blur(10px); /* Apply background blur */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,68 @@
+/* Center the entire content */
+.officer-login-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2)); */
+}
+.officer-svg{
+    height: 40%;
+    width: 40%;
+}
+
+.officer-quotes{
+
+}
+
+.officer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Style the QuoteCard */
+.glass-container {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Style the form container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vw;
+    width: 35vw;
+    /* max-width: 400px; */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/* Button styling */
+.toggle-button {
+    margin-top: 20px;
+    width: 20vw;
+    background-color: #1976d2;
+    color: #fff;
+}
+
+.toggle-button:hover {
+    background-color: #1565c0;
+}
